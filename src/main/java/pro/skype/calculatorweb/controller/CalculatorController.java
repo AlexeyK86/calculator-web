@@ -46,5 +46,4 @@ public class CalculatorController {
     private String buildResponse(int num1, int num2, int result, char action) {
         return String.format("%d %c %d = %d", num1, action, num2, result);
     }
-
 }
